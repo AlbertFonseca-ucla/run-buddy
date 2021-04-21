@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy, Inc.
 
 ## Purpose
 
@@ -16,3 +16,5 @@ https://albertfonseca-ucla.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Albert Fonseca
+
+### ©️2019 Run Buddy, Inc 
