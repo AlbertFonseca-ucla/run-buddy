@@ -153,14 +153,20 @@ h3 {
 }
 
 .form-input {
+  color: #024e76;
+  background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid #024e76;
   border-radius: 10px;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 button {
@@ -202,11 +208,14 @@ button {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.step:not(:last-child) {
+  border-bottom: 1px solid #39a6b2;
 }
 
 .steps {
@@ -334,15 +343,21 @@ button {
 
 .contact-form input,
 .contact-form textarea {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: #024e76;
   border: 1px solid #024e76;
   border-radius: 10px;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #024e76;
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
+}
+
+.contact-form textarea:focus,
+.contact-form input:focus {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .contact-form button {
@@ -365,6 +380,7 @@ button {
   color: #fce138;
 }
 
+/* Media Queries */
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
