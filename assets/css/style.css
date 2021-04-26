@@ -12,7 +12,7 @@
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  color: #39a6b2;
+  color: var(--tertiary-color);
 }
 
 /* Header */
@@ -24,7 +24,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #39a6b2;
+  background-color: var(--tertiary-color);
   background-image: url("../images/hero-bg.jpeg");
   background-size: cover;
   background-position: 80%;
